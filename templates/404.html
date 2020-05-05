@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block title %}
+  Not found | {{ config.title }}
+{% endblock title %}
+
+{% block content %}
+  <div class="page">
+    <div class="page-content">
+        <h1 class="page-content-title">404: Page not found</h1>
+        <div class="page-content-body">
+            Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href={{ config.base_url }}>Head back home</a> to try finding it again.
+        </div>
+    </div>
+  </div>
+{% endblock content %}

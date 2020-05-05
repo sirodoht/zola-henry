@@ -1,0 +1,12 @@
+name = "henry"
+description = "A timeless blog theme"
+license = "MIT"
+homepage = "https://github.com/sirodoht/zola-henry"
+min_version = "0.1.0"
+
+[author]
+name = "sirodoht"
+
+[original]
+homepage = "https://jekyll.github.io/minima/"
+repo = "https://github.com/jekyll/minima"

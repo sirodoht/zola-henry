@@ -1,0 +1,12 @@
+base_url = "https://example.com"
+
+title = "Dr. Henry Jekyll"
+description = "A timeless blog theme"
+compile_sass = false
+highlight_code = true
+
+[extra]
+henry_links = [
+    {url = "/about", name = "About"},
+]
+henry_github = "https://github.com/sirodoht/zola-henry"
