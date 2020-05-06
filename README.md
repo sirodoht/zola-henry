@@ -44,6 +44,15 @@ By default Henry ships with GitHub icon link in the right side of the footer. Yo
 henry_github = "https://github.com/sirodoht/zola-henry"
 ```
 
+### Footer Twitter icon link
+
+Twitter is too mainstream and a bit lame, but 100% of our users have requested, so we offer it.
+
+```toml
+[extra]
+henry_twitter = "https://twitter.com/dhh"
+```
+
 ## License
 
 MIT
