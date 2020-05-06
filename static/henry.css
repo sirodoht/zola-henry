@@ -23,13 +23,6 @@ hr {
     overflow: visible;
 }
 
-img {
-    display: block;
-    margin: 0 0 1rem;
-    border-radius: 5px;
-    max-width: 100%;
-}
-
 pre {
     font-family: monospace, monospace;
     font-size: 1em;
@@ -209,7 +202,7 @@ p, blockquote, pre, dl, dd, ol, ul, figure {
 
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, ul, ol, dl, figure, .highlight {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 a {
@@ -227,8 +220,16 @@ p {
   letter-spacing: -0.05px;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 0 16px;
+    border-radius: 3px;
+    max-width: 100%;
 }
 
 blockquote {
@@ -339,7 +340,7 @@ a.header-content-title {
 .header-content-nav-trigger-link {
   color: #5c5c5c;
   line-height: 1.5;
-  margin-left: 1em;
+  margin-left: 16px;
 }
 @media (max-width: 600px) {
   .header-content-nav-trigger-link {
