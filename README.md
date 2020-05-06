@@ -23,11 +23,11 @@ theme = "henry"
 
 ### Nav links
 
-Set a field in `extra` with a key of `hyde_links`:
+Set a field in `extra` with a key of `henry_links`:
 
 ```toml
 [extra]
-hyde_links = [
+henry_links = [
     {url = "/about", name = "About"},
     {url = "https://github.com/patrick", name = "Projects"},
 ]
@@ -37,7 +37,7 @@ Each link needs to have a `url` and a `name`.
 
 ### Footer GitHub icon link
 
-By default Hyde ships with GitHub icon link in the right side of the footer. You can change its link href in your `config.toml`.
+By default Henry ships with GitHub icon link in the right side of the footer. You can change its link href in your `config.toml`.
 
 ```toml
 [extra]
