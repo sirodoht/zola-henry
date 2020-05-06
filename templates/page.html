@@ -9,7 +9,7 @@
     <article class="page-content" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="page-content-title" itemprop="name headline">{{ page.title }}</h1>
         <div class="page-content-meta">
-            <time datetime="{{ page.date | date(format="%+") }}" itemprop="datePublished">{{ page.date | date(format="%Y-%m-%d") }}</time>
+            <time datetime="{{ page.date | date(format="%+") }}" itemprop="datePublished">{{ page.date | date(format="%B %e, %Y") }}</time>
         </div>
         <div class="page-content-body" itemprop="articleBody">
             {{ page.content | safe }}
