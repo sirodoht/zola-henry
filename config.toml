@@ -4,6 +4,7 @@ title = "Dr. Henry Jekyll"
 description = "A timeless blog theme"
 compile_sass = false
 highlight_code = true
+generate_rss = true
 
 [extra]
 henry_links = [
