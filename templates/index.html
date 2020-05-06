@@ -31,9 +31,11 @@
                     </svg>
                     </a>
                     <div class="header-content-nav-trigger">
+                        {% if config.extra.henry_links %}
                         {% for link in config.extra.henry_links %}
                         <a class="header-content-nav-trigger-link" href="{{ link.url }}">{{ link.name }}</a>
                         {% endfor %}
+                        {% endif %}
                     </div>
                 </nav>
             </div>
