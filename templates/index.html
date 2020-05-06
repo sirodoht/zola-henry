@@ -63,7 +63,9 @@
         <footer>
             <div class="footer-content">
             <div class="footer-content-left">
+                {% if config.generate_rss %}
                 Subscribe <a href="{{ get_url(path="rss.xml", trailing_slash=false) }}">via RSS</a>
+                {% endif %}
             </div>
             <div class="footer-content-right">
                 {% if config.extra.henry_github %}
