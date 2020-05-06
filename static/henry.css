@@ -462,3 +462,7 @@ footer {
 .footer-content-right {
   opacity: 0.3;
 }
+
+.footer-content-right a {
+    margin-left: 8px;
+}
