@@ -339,6 +339,7 @@ a.header-content-title {
 .header-content-nav-trigger-link {
   color: #5c5c5c;
   line-height: 1.5;
+  margin-left: 1em;
 }
 @media (max-width: 600px) {
   .header-content-nav-trigger-link {
