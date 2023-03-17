@@ -1,4 +1,4 @@
-base_url = "https://example.com"
+base_url = "https://sirodoht.github.io/zola-henry/"
 
 title = "Dr. Henry Jekyll"
 description = "A timeless blog theme"
@@ -8,7 +8,7 @@ generate_rss = true
 
 [extra]
 henry_links = [
-    {url = "/about", name = "About"},
+    {url = "about", name = "About"},
 ]
 henry_github = "https://github.com/sirodoht/zola-henry"
 henry_twitter = "https://twitter.com/jekyllrb"
