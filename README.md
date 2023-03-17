@@ -2,7 +2,11 @@
 
 Henry is a single-column [Zola](https://github.com/getzola/zola) theme based on the original Jekyll styles.
 
-![Henry screenshot](screenshot.png)
+![screenshot for home page](screenshot-home.png)
+
+![screenshot for posts](screenshot-post.png)
+
+![screenshot for any other page](screenshot-page.png)
 
 ## Installation
 
@@ -29,7 +33,7 @@ Set a field in `extra` with a key of `henry_links`:
 [extra]
 henry_links = [
     {url = "/about", name = "About"},
-    {url = "https://github.com/patrick", name = "Projects"},
+    {url = "https://github.com/benbalter", name = "Projects"},
 ]
 ```
 
@@ -50,7 +54,7 @@ Twitter is too mainstream and a bit lame, but 100% of our users have requested, 
 
 ```toml
 [extra]
-henry_twitter = "https://twitter.com/dhh"
+henry_twitter = "https://twitter.com/benbalter"
 ```
 
 ## License
