@@ -34,8 +34,8 @@ Set a field in `extra` with a key of `henry_links`:
 ```toml
 [extra]
 henry_links = [
-    {url = "/about", name = "About"},
-    {url = "https://github.com/benbalter", name = "Projects"},
+    {url = "about", name = "About"},
+    {url = "https://github.com/benbalter", name = "GitHub"},
 ]
 ```
 
