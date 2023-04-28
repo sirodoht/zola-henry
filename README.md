@@ -4,7 +4,7 @@ Henry is a single-column [Zola](https://github.com/getzola/zola) theme based on 
 
 Demo -> [https://sirodoht.github.io/zola-henry/](https://sirodoht.github.io/zola-henry/)
 
-![screenshot for home page](screenshot-home.png)
+![screenshot for home page](screenshot.png)
 
 ![screenshot for posts](screenshot-post.png)
 
