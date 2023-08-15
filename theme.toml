@@ -3,7 +3,6 @@ description = "A timeless blog theme"
 license = "MIT"
 homepage = "https://github.com/sirodoht/zola-henry"
 min_version = "0.4.0"
-homepage = "https://github.com/sirodoht/zola-henry"
 demo = "https://sirodoht.github.io/zola-henry/"
 
 [author]
